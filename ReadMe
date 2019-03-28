@@ -1,0 +1,19 @@
+# 天池-Food-safety-related events
+
+updated 2019-3-28 
+--
+
+> 参考 kaggle Quora Insincere Questions Classification 
+https://www.kaggle.com/lex1burner/mogai-pytorch-bi-gru/output
+
+model.py 中为baseline(bi-gru模型)和Attention+Bi-LSTM模型
+
+preprocessing.py 处理文本的预处理
+
+- 待添加： word embedding
+
+天池数据未给出
+
+updated 2019-4-01
+--
+
