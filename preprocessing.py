@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 
 # 处理大小写,错漏词,重复词等
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
 
 embed_size = 300 # how big is each word vector
 max_features = 120000 # how many unique words to use (i.e num rows in embedding vector)
